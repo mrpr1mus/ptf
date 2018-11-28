@@ -26,7 +26,7 @@ DEBIAN="git,make,libx11-dev,libxtst-dev"
 FEDORA="make,libx11-devel,libxtst-devel"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS="cd {INSTALL_LOCATION},make,make install"
+AFTER_COMMANDS="cd {INSTALL_LOCATION},make -j4,make install"
 
 # CREATE LAUNCHER
 LAUNCHER="xdotool"
